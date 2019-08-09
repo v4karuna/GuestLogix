@@ -17,14 +17,17 @@ namespace GuestLogix.Services
 
         public SearchResult<string[]> ShortestRouteByConnectingFlights(string origin, string destination)
         {
+            origin = origin?.ToUpper();
+            destination = destination?.ToUpper();
+
             //validate origin and destination
             var result = new SearchResult<string[]>();
-            if(!_routes.ContainsKey(origin.ToUpper()))
+            if(!_routes.ContainsKey(origin))
             {
                 result.Message = Constants.SearchResult.InvalidOrigin;
                 return result;
             }
-            if(!_routes.ContainsKey(destination.ToUpper()))
+            if(!_routes.ContainsKey(destination))
             {
                 result.Message = Constants.SearchResult.InvalidDestination;
                 return result;
