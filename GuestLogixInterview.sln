@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7C21E67C-12AE-4917-B03A-E09535B59BBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7A739375-5C0D-44A6-8CD0-C77730F9EF02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuestLogix.WebApi", "src\GuestLogix.WebApi\GuestLogix.WebApi.csproj", "{D48A0D82-C4BC-4160-B6CB-698A04B97764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestLogix.Algrothims", "src\GuestLogix.Algrothims\GuestLogix.Algrothims.csproj", "{69624486-A669-4A35-8D08-39C9E2DBB809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestLogix.Services", "src\GuestLogix.Services\GuestLogix.Services.csproj", "{DAE4E884-E79C-4D90-B006-AD9376057ED5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestLogix.Model", "src\GuestLogix.Model\GuestLogix.Model.csproj", "{1E52F5C2-5F2E-4B03-B2DE-5C78278791A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestLogix.UnitTests", "tests\GuestLogix.UnitTests\GuestLogix.UnitTests.csproj", "{BB59EBB6-EBE7-4E5C-AEF0-B42343072349}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D48A0D82-C4BC-4160-B6CB-698A04B97764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D48A0D82-C4BC-4160-B6CB-698A04B97764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D48A0D82-C4BC-4160-B6CB-698A04B97764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D48A0D82-C4BC-4160-B6CB-698A04B97764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69624486-A669-4A35-8D08-39C9E2DBB809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69624486-A669-4A35-8D08-39C9E2DBB809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69624486-A669-4A35-8D08-39C9E2DBB809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69624486-A669-4A35-8D08-39C9E2DBB809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAE4E884-E79C-4D90-B006-AD9376057ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE4E884-E79C-4D90-B006-AD9376057ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE4E884-E79C-4D90-B006-AD9376057ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE4E884-E79C-4D90-B006-AD9376057ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E52F5C2-5F2E-4B03-B2DE-5C78278791A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E52F5C2-5F2E-4B03-B2DE-5C78278791A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E52F5C2-5F2E-4B03-B2DE-5C78278791A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E52F5C2-5F2E-4B03-B2DE-5C78278791A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB59EBB6-EBE7-4E5C-AEF0-B42343072349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB59EBB6-EBE7-4E5C-AEF0-B42343072349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB59EBB6-EBE7-4E5C-AEF0-B42343072349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB59EBB6-EBE7-4E5C-AEF0-B42343072349}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D48A0D82-C4BC-4160-B6CB-698A04B97764} = {7C21E67C-12AE-4917-B03A-E09535B59BBF}
+		{69624486-A669-4A35-8D08-39C9E2DBB809} = {7C21E67C-12AE-4917-B03A-E09535B59BBF}
+		{DAE4E884-E79C-4D90-B006-AD9376057ED5} = {7C21E67C-12AE-4917-B03A-E09535B59BBF}
+		{1E52F5C2-5F2E-4B03-B2DE-5C78278791A0} = {7C21E67C-12AE-4917-B03A-E09535B59BBF}
+		{BB59EBB6-EBE7-4E5C-AEF0-B42343072349} = {7A739375-5C0D-44A6-8CD0-C77730F9EF02}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65B00320-76AA-4DDD-9640-F28209E30B54}
+	EndGlobalSection
+EndGlobal
